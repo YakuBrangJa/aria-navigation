@@ -1,0 +1,35 @@
+{
+  "name": "aria-navigation",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "description": "",
+  "scripts": {
+    "build": "bun run build.mjs",
+    "prepublishOnly": "bun run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "bun"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/YakuBrangJa/aria-navigation#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YakuBrangJa/aria-navigation"
+  },
+  "bugs": "",
+  "author": "Yaku Brang Ja",
+  "devDependencies": {
+    "@types/bun": "^1.0.0",
+    "bun-plugin-dts": "^0.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15"
+  }
+}
