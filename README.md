@@ -1,26 +1,8 @@
-# bun starter
+# Aria Navigation
 
-## Getting Started
+Aria Navigation is a powerful JavaScript tool designed to enhance keyboard navigation and improve accessibility in web applications. It follows the guidelines and example code provided by the Aria Authoring Practice Guide (APG).
 
-Click the [Use this template](https://github.com/wobsoriano/bun-lib-starter/generate) button to create a new repository with the contents starter.
+## Features
 
-OR
-
-Run `bun create wobsoriano/bun-lib-starter ./my-lib`.
-
-## Setup
-
-```bash
-# install dependencies
-bun install
-
-# test the app
-bun test
-
-# build the app, available under dist
-bun run build
-```
-
-## License
-
-MIT
+- **Keyboard Navigation:** Enable users to navigate your JavaScript app easily using only the keyboard, enhancing accessibility for all.
+- **APG Guidelines:** Built in accordance with the Aria Authoring Practice Guide, providing a robust foundation for creating accessible applications.
