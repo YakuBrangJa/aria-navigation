@@ -12,7 +12,9 @@
     "dist"
   ],
   "keywords": [
-    "bun"
+    "aria",
+    "keyboard navigation",
+    "accessibility"
   ],
   "license": "MIT",
   "homepage": "https://github.com/YakuBrangJa/aria-navigation#readme",
