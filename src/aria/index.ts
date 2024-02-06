@@ -1,7 +1,7 @@
 import Grid, {AriaGridProps} from "./aria-grid"
 
-const aria = {
-  grid: (containerNode: HTMLElement, props: AriaGridProps) => {
+
+export function grid (containerNode: HTMLElement, props: AriaGridProps) {
     const grid = new Grid(containerNode, props)
 
     return {
@@ -9,6 +9,4 @@ const aria = {
       clearEvents: grid.clearEvents,
     }
   }
-}
 
-export default aria

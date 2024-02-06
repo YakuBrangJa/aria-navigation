@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "description": "",
+  "description": "Tool for implementing keyboard accessibility to JavaScript applications",
   "scripts": {
     "build": "bun run build.mjs",
     "prepublishOnly": "bun run build"
