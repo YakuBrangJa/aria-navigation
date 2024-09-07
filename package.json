@@ -3,6 +3,12 @@
   "version": "0.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.cjs.js"
+    }
+  },
   "description": "Tool for implementing keyboard accessibility to JavaScript applications",
   "scripts": {
     "build": "bun run build.mjs",
@@ -26,12 +32,15 @@
   "author": "Yaku Brang Ja",
   "devDependencies": {
     "@types/bun": "^1.0.0",
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
     "bun-plugin-dts": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "typescript": "^5.2.2",
-    "@types/node": "^20.10.4",
-    "@types/react": "^18.2.37",
-    "@types/react-dom": "^18.2.15"
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "aria-navigation": "github:YakuBrangJa/aria-navigation"
   }
 }
