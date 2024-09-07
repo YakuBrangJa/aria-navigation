@@ -1,17 +1,16 @@
 {
   "name": "aria-navigation",
   "version": "0.0.0",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.js",
+  "module": "src/index.js",
   "type": "module",
-  "module": "dist/index.js",
   "description": "Tool for implementing keyboard accessibility to JavaScript applications",
   "scripts": {
     "build": "bun run build.mjs",
     "prepublishOnly": "bun run build"
   },
   "files": [
-    "dist"
+    "src"
   ],
   "keywords": [
     "aria",

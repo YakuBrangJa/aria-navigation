@@ -10,3 +10,6 @@ export function grid (containerNode: HTMLElement, props: AriaGridProps) {
     }
   }
 
+// "main": "dist/index.js",
+// "types": "dist/index.d.ts",
+// "module": "dist/index.js",

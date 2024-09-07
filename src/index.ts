@@ -1,2 +1,4 @@
-export {grid} from 'aria'
-export {useAriaGrid} from './hooks/useAriaGrid'
+import {grid} from 'aria'
+import {useAriaGrid} from './hooks/useAriaGrid'
+
+export {grid, useAriaGrid}
