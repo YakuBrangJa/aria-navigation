@@ -7,7 +7,6 @@
   "type": "module",
   "description": "Tool for implementing keyboard accessibility to JavaScript applications",
   "scripts": {
-
     "build": "tsup",
     "prepublishOnly": "bun run build"
   },

@@ -1,4 +1,5 @@
 import React, { MutableRefObject } from 'react';
+import * as react_jsx_runtime from 'react/jsx-runtime';
 
 interface AriaGridProps {
     rowSelector: string;
@@ -22,4 +23,6 @@ interface AriaGridHookProps {
 }
 declare function useAriaGrid({ rowSelector, colSelector, onReachEnd, onReachStart }: AriaGridHookProps, depArray: any[], ref?: MutableRefObject<HTMLElement | undefined>): React.MutableRefObject<HTMLElement | undefined>;
 
-export { grid, useAriaGrid };
+declare function ButtonAria(): react_jsx_runtime.JSX.Element;
+
+export { ButtonAria, grid, useAriaGrid };
