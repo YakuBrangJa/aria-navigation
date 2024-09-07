@@ -1,16 +1,18 @@
 {
   "name": "aria-navigation",
   "version": "0.0.0",
-  "main": "src/index.ts",
-  "module": "src/index.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "type": "module",
   "description": "Tool for implementing keyboard accessibility to JavaScript applications",
   "scripts": {
-    "build": "bun run build.mjs",
+
+    "build": "tsup",
     "prepublishOnly": "bun run build"
   },
   "files": [
-    "src"
+    "dist"
   ],
   "keywords": [
     "aria",
@@ -33,6 +35,7 @@
     "bun-plugin-dts": "^0.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "tsup": "^8.2.4",
     "typescript": "^5.2.2"
   },
   "dependencies": {
