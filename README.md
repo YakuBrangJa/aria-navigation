@@ -1,3 +1,8 @@
+---
+title: Title
+description: Description text
+---
+
 # Aria Navigation
 
 Aria Navigation is a JavaScript tool designed to enhance keyboard navigation and improve accessibility in web applications. It follows the guidelines and example code provided by the Aria Authoring Practice Guide (APG) [https://www.w3.org/WAI/ARIA/apg/patterns/].
